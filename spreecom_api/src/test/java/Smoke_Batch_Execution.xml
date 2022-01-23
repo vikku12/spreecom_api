@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+
+<listeners>
+	<listener class-name="pk.extentreport.Listener"/>
+</listeners>
+
+  <test name="Test">
+    <classes>
+      <class name="pk.countries.Retrieve_a_Country"/>
+      <class name="pk.countries.get_defaultCountry"/>
+      <class name="pk.address.DeleteAddress"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
